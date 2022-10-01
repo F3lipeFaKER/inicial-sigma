@@ -1,0 +1,105 @@
+*{  font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'lato', 'Helvetica' , 'sans-serif';
+    
+    width: 100%;
+    background-image: url(./img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header{
+
+    position: absolute;
+
+    left: 30%;
+    top: 37%;
+
+    max-width: 20%;/*
+    margin-top: 200px;
+    margin-left: 400px;*/
+    
+    font-size: 12px;
+    color: white;
+}
+
+.header > h1{
+    
+    margin-bottom: 25px;
+}
+
+.header > h2{
+    margin-bottom: 2px;
+}
+.header > p{
+    font-size: 12px;
+
+    margin-bottom: -10px;
+} 
+
+.form > h2{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.form{
+    
+    font-size: 13px;
+    color: white;
+    position: fixed;
+    top: 30%;
+    left: 70%;
+}
+
+input{ 
+    margin-bottom: 12px;
+    margin-top: 5px;
+    width: 250px;
+    padding: 9px;
+    border: 0px solid;
+    border-radius: 4px;
+}
+
+input[type=submit]{
+    
+    padding: 6px;
+    width: 267px;
+    color: aliceblue;
+    background-color: rgb(69, 126, 69);
+    transition: 1s;
+}
+
+input[type=submit]:hover{
+    
+    background-color: rgb(18, 63, 18);
+}
+
+.redefinir > a{
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 12px;
+    color: dimgray;
+}
+
+a:hover{
+
+    color: #ccc;
+}
+
+.redefinir{
+    
+    text-align: center;
+}
+
+
+.footer{
+    color: white;
+    position: absolute;
+    left: 45%;
+    bottom: 5%;
+}
